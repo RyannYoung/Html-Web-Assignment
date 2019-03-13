@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 
+<!-- Start of the HTML Page -->
 <html>
+
+<!-- The head containing the icon and title -->
 <head>
   <link rel="shortcut icon" href="img/favicon.ico" />
   <title>Music | Rybin</title>
 </head>
+
+<!-- This is the start of the body which contains all the information displayed on each page -->
 <body>
-  <!-- Stylesheet Reset (Changes all values so it appears the same in all browsers) -->
-  <link rel="stylesheet" type="text/css" href="reset.css">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="reset.css">    <!-- Stylesheet Reset (Changes all values so it appears the same in all browsers) -->
+  <link rel="stylesheet" type="text/css" href="styles.css">   <!-- Used to set all my styles for each element used within my website -->
 
   <!--  Heading and Navigation Bar -->
-
   <div>
-    <h1><img class = "headerLogo" src="img/djlogo.png" alt="DJ Logo" height="75" width="100">RYBIN
-    </h1>
+    <h1><img class = "headerLogo" src="img/djHeaderLogo.png" alt="DJ Logo" height="60" width="60">RYBIN</h1>
   </div>
   <nav class="navbar">
     <a href="index.html">HOME</a>
@@ -22,18 +24,23 @@
     <a href="contact.html">CONTACT</a>
     <a href="about_me.html">ABOUT ME</a>
     <a href="social_media.html">SOCIAL MEDIA </a>
+
+    <!-- Display these on the righthand side of the navbar -->
     <div class="rightalign">
       <a href="https://goo.gl/forms/PkaHvuBdwSR4BiNg2">SIGN UP</a>
       <a href="Login">LOGIN</a>
     </div>
   </nav>
 
+  <!-- This is the grid used in each webpage (It contains a header (usually transparent), left box, right box and a footer) -->
   <div class="wrapper">
     <div class ="topBox"></div>
     <div class = "leftBox">
-      <h2>MUSIC</h2>
+      <h2>MUSIC 🎵</h2>
       <hr>
       <p>
+
+        <!-- Creation of the table to store information of each song/remix/mixpack along with it's genre and download link -->
         <table style="width:100%">
           <tr>
             <th>Song/Mix Name</th>
@@ -72,8 +79,10 @@
           </tr>
         </table>
         <hr />
+        <br /> <!-- Should reconfigure CSS for a more sophisticated way -->
         <br />
-        <br />
+
+        <!-- This is the embedded code provided by soundcloud.com as a way of using their api and displaying public playlists onto external websites -->
         <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/392287235&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </p>
     </div>
@@ -83,6 +92,7 @@
       <img src="img\djimage2.jpeg"/>
 
     </div>
+    <!-- The footer (also known as the bottombox) -->
     <div class = "bottomBox">
       <ul class="social-icons">
         <li><a href="http://www.facebook.com"><img src="img/Facebook.png" /></a></li>
@@ -92,6 +102,6 @@
     </div>
   </div>
 
-  </div>
+</div>
 </head>
 </html>
