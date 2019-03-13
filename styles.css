@@ -168,6 +168,40 @@
   color: white;
 }
 
+.headerquote{
+  background-color: black;
+  padding-left: 15px;
+}
+
+.loginPageBground{
+  background-image: url("img/ultra2019.jpg");
+}
+.image2{
+  background-image: url("img/jervisbayimage.jpg");
+}
+
+.gifPadding{
+  padding-top: 10px;
+}
+.loginPage{
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 350;
+  font-variant: small-caps;
+  text-align: center;
+  font-family: "robotolight", serif;
+  color: black;
+  padding-top: 40px;
+}
+
+.meStyling{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 40%;
+}
+
 /* ELEMENTS STYLING */
 ol {
   list-style-type: decimal;
@@ -187,7 +221,7 @@ q {
   font-style: italic;
   font-weight: lighter;
   font-variant: small-caps;
-  font-family: "arial", serif;
+  font-family: "robotolight", serif;
   color: white
 }
 body {
@@ -197,6 +231,7 @@ body {
   background-size: cover;
   background-attachment: fixed ;
 }
+
 h1 {
   background-color: black;
   float: none;
